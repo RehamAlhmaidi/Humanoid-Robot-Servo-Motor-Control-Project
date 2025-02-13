@@ -14,6 +14,7 @@ This project demonstrates how to control 6 servo motors for a humanoid robot, si
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
 
+---
 ## Overview
 This project is designed to demonstrate the control of 6 servo motors in a humanoid robot. The robot is programmed to:
 1. Perform a sweeping motion using all 6 servos for 2 seconds.
@@ -22,12 +23,16 @@ This project is designed to demonstrate the control of 6 servo motors in a human
 
 The walking motion algorithm provides the logic needed for the robot to step forward in a sequence, with the servos controlling the hip, knee, and ankle joints of the robot's legs.
 
+---
+
 ## Components
 To build this humanoid robot with servo control, you'll need the following components:
 - 6 Servo motors
 - Arduino board (e.g., Arduino Uno)
 - Jumper wires
 - Power supply for the servos (if necessary)
+
+---
 
 ## Setup
 1. **Wiring the Servos:**
@@ -40,13 +45,19 @@ To build this humanoid robot with servo control, you'll need the following compo
      - Servo 6: Pin 11
 2. **Power Supply:**
    - Ensure that the servo motors are powered properly (either via the Arduino or an external power supply).
+  
+
+
+## Circuit Diagram
+![Image](https://github.com/user-attachments/assets/5f3a3068-bc93-46ea-803f-e2aa45a8
+
 
 ## Code
 
 ### Servo Control
 
 The code includes the setup for controlling the 6 servos. It uses the `Servo` library to attach each servo to the specified digital pin on the Arduino board.
-[📜 View the Arduino] (odeprogram_6_servo_motors.ino)
+[📜 View the Arduino Code](program_6_servo_motors.ino)
 
 ```
 
