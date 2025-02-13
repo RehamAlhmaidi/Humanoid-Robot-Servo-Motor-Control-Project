@@ -43,29 +43,33 @@ To build this humanoid robot with servo control, you'll need the following compo
      - Servo 4: Pin 9
      - Servo 5: Pin 10
      - Servo 6: Pin 11
+    
+       
 2. **Power Supply:**
    - Ensure that the servo motors are powered properly (either via the Arduino or an external power supply).
   
 
+---
 
 ## Circuit Diagram
-![Image](https://github.com/user-attachments/assets/5f3a3068-bc93-46ea-803f-e2aa45a8)
+![Image](https://github.com/user-attachments/assets/5f3a3068-bc93-46ea-803f-e2aa45a8
 
 
-## Code
+---
 
-### Servo Control
+
+### Code 6 servo motors
 
 The code includes the setup for controlling the 6 servos. It uses the `Servo` library to attach each servo to the specified digital pin on the Arduino board.
-
 [📜 View the Arduino Code](program_6_servo_motors.ino)
 
-```
 
+---
 ### Walking Motion Algorithm
 
 The walking motion is divided into multiple steps, alternating between the right and left legs. The algorithm controls the hip, knee, and ankle servos to lift the legs, move them forward, and place the feet on the ground.
 
+---
 **Algorithm Steps:**
 1. Lift the right leg (hip forward, bend knee, rotate ankle).
 2. Move the right leg forward (straighten knee, rotate ankle).
@@ -75,6 +79,7 @@ The walking motion is divided into multiple steps, alternating between the right
 6. Place the left foot on the ground (ankle flat, lock knee and ankle).
 7. Repeat the steps for continuous walking.
 
+---
 The algorithm creates an alternating leg movement for simulating walking.
 
 ## How to Run
@@ -86,6 +91,8 @@ The algorithm creates an alternating leg movement for simulating walking.
 2. **Run the Program:**
    - Once uploaded, the servos will perform the sweeping motion for 2 seconds and then hold the position at 90 degrees.
    - The walking motion will be executed in the subsequent steps based on the algorithm.
+
+---
 
 ## Troubleshooting
 - **Servos Not Moving:**
