@@ -49,7 +49,7 @@ To build this humanoid robot with servo control, you'll need the following compo
 
 
 ## Circuit Diagram
-![Image](https://github.com/user-attachments/assets/5f3a3068-bc93-46ea-803f-e2aa45a8
+![Image](https://github.com/user-attachments/assets/5f3a3068-bc93-46ea-803f-e2aa45a8)
 
 
 ## Code
@@ -57,6 +57,7 @@ To build this humanoid robot with servo control, you'll need the following compo
 ### Servo Control
 
 The code includes the setup for controlling the 6 servos. It uses the `Servo` library to attach each servo to the specified digital pin on the Arduino board.
+
 [📜 View the Arduino Code](program_6_servo_motors.ino)
 
 ```
